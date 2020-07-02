@@ -21,8 +21,11 @@ attr_accessor:name, :roster
  end
  
 def sort 
- roster.sort_by do |k, v| 
- k
- end
+  new_hash = {}
+  roster.each do |k, v| 
+    nu_hash[k] = v.sort 
+  end 
+  nu_hash
+end 
 end 
 end 
