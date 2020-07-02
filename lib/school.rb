@@ -19,6 +19,5 @@ attr_accessor:name, :roster
         return v 
       end 
     end 
-    
-end
+ end
 end 
