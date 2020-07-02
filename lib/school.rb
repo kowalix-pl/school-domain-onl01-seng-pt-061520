@@ -21,7 +21,7 @@ attr_accessor:name, :roster
  end
  
  def sort 
-   roster.sort_by { |k, v| v[grade] }
+   roster.sort_by {|k, v| v[grade]}
    binding.pry
  end 
 end 
