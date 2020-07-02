@@ -13,7 +13,8 @@ attr_accessor:name, :roster
  end 
  
  def grade(grade)
-    roster[grade] = name
-      puts name 
+    roster.map do |grade,name| 
+      puts name
   end 
+end
 end 
