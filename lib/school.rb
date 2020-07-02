@@ -13,7 +13,7 @@ attr_accessor:name, :roster
  end 
  
  def grade(grade)
-    roster.map do |grade,name| 
+    roster.map do |grade| 
       puts name
   end 
 end
