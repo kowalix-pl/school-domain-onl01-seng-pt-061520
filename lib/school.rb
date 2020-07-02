@@ -20,8 +20,9 @@ attr_accessor:name, :roster
     end 
  end
  
-# def sort 
-#   roster.sort_by |k, v| k[grade]}
- 
-# end 
+def sort 
+ roster.sort_by do |k, v| 
+ k
+ end
+end 
 end 
