@@ -22,4 +22,5 @@ attr_accessor:name, :roster
  
  def sort 
    roster.sort
+ end 
 end 
