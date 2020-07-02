@@ -21,6 +21,6 @@ attr_accessor:name, :roster
  end
  
  def sort 
-   roster.sort
+   roster..sort_by { |k, v| v[:grade] }
  end 
 end 
