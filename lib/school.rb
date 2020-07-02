@@ -24,8 +24,9 @@ def sort
   new_hash = {}
   roster.each do |k, v| 
     new_hash[k] = v.sort 
+    binding.pry
   end 
   new_hash
 end 
-binding.pry
+
 end 
