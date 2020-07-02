@@ -13,8 +13,7 @@ attr_accessor:name, :roster
  end 
  
  def grade(grade)
-   
-    roster.detect do |k, v| 
+    roster.each do |k, v| 
       if k == grade
         return v 
       end 
