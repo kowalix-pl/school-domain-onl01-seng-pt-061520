@@ -23,8 +23,8 @@ attr_accessor:name, :roster
 def sort 
   new_hash = {}
   roster.each do |k, v| 
-    nu_hash[k] = v.sort 
+    new_hash[k] = v.sort 
   end 
-  nu_hash
+  new_hash
 end 
 end 
