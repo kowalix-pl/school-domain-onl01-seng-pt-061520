@@ -13,8 +13,12 @@ attr_accessor:name, :roster
  end 
  
  def grade(grade)
-    roster.map do |grade,name| 
-      puts name
-  end 
+   
+    roster.detect do |k, v| 
+      if k == grade
+        return v 
+      end 
+    end 
+    
 end
 end 
