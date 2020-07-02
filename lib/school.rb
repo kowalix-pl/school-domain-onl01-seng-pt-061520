@@ -17,11 +17,12 @@ attr_accessor:name, :roster
       if k == grade
         return v 
       end 
+        binding.pry
     end 
  end
  
- def sort 
-   roster.sort_by {|k, v| k[grade]}
-   binding.pry
- end 
+# def sort 
+#   roster.sort_by {|k, v| k[grade]}
+ 
+# end 
 end 
