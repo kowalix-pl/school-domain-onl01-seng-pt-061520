@@ -17,7 +17,6 @@ attr_accessor:name, :roster
       if k == grade
         return v 
       end 
-        binding.pry
     end 
  end
  
