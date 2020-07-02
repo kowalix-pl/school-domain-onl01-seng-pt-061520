@@ -27,4 +27,5 @@ def sort
   end 
   new_hash
 end 
+binding.pry
 end 
